@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<meta charset="utf-8" />
+
+<title>Візитка</title>
+
+<div class="logo">
+<a href="/test/index.html"><img src="images/logo2.png" alt="Візитка"/></a>
+</div>
+
+<script type="text/javascript">
+
+$(function() {
+			$('#dropdown_nav li').find('.sub_nav').hide();
+			$('#dropdown_nav li').hover(function() {
+				$(this).find('.sub_nav').fadeIn(400);
+			}, function() {
+				$(this).find('.sub_nav').fadeOut(100);
+			});
+		});
+
+</script>
+
+</head>
+<body>
+	<header class="header">
+		<div id="headerInner">
+			<nav class="topMenuRight">   
+    			<ul>
+    			<li><a href="/test/index.html">Візитка</a></li>
+    			<li><a href="/test/contact/">Контакти</a></li>
+    			</ul>
+			</nav> 
+		</div>
+	</header>
+
+
+
+<div class="text">
+	<p align="center" style="color:black; font-size:30px">
+		<br>Прізвище: Стасько</br>
+		<br>Ім'я: Станіслав</br>
+		<br>По Батькові: Іванович</br>
+	</p>
+</div>
+<div id = 'layer'>
+	<img src="images/w256h2561380453888Contacts256x25632.png"/>
+</div>
+
+<section id="wrapper">
+<div id="middle">
+<div id="content">
+<div id="colLeft">
+
+</div>
+
+<aside id="colRight">
+</form>
+
+</aside>
+</div>
+</div>
+</section>
+
+</body>
+</html>
